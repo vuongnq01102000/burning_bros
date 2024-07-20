@@ -44,13 +44,13 @@ class DioClient {
     }
   }
 
-  // Thêm các phương thức khác như put, delete, etc. tương tự
+  // Add more methods for other HTTP methods if needed
 
   Exception _handleError(error) {
     if (error is DioException) {
-      // Xử lý các loại lỗi Dio
+      // Handle DioException
       return Exception(error.message);
     }
-    return Exception('Có lỗi xảy ra');
+    return Exception('Something went wrong');
   }
 }
