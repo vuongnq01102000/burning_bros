@@ -1,6 +1,7 @@
 # test_burning_bros
 
-A test of Burning Bros.
+#### BURNING BROS TEST
+###### by Nguyen Quoc Vuong
 
 ## Getting Started
 
